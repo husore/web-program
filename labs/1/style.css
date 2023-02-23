@@ -1,0 +1,51 @@
+
+.menu{
+    display: flex;
+    background: pink;
+    color:red;
+  }
+  
+  .menu li{
+    width: 200px;
+    list-style: none;
+    position: relative;
+  }
+
+  .menu1{
+    background: blue;
+  }
+  .menu2{
+
+  }
+  
+  .menu a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+  }
+  
+  .menu a:hover {
+    background: blue;
+    color:white;
+  }
+  
+  .menu ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+  }
+  
+  .menu li:hover > ul {
+    display: block;
+  }
+  
+  .menu ul ul {
+    display: none;
+    top: 0;
+    left: 100%;
+  }
