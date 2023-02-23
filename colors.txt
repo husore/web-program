@@ -1,0 +1,6 @@
+yellow - #ffd635
+green - #07d18a
+gark-green - #22343c
+grey - #f1f0f0
+idk - #e48779
+dark-blue - #142229
