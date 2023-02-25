@@ -17,12 +17,12 @@
 
 
 	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styleExp.css">
 </head>
 <body>
-	<header class="header" style = "background-image: url(img/background-main.png);">
 		<nav class="navbar">
 			<div class="container">
-				<a href="#" class="navbar-brand">RUSLAN</a>
+				<a href="index.html" class="navbar-brand">RUSLAN</a>
 				<div class="navbar-wrap">	
 					<ul class="navbar-menu">
 						<li><a href="exp.html">Подвал</a></li>
@@ -33,14 +33,22 @@
 				</div>
 			</div>
 		</nav>
-		<div class="container">
-			<div class="row">
-				<div class="header-content">
-					<h1>ИЗУЧЕНИЕ ВЕБ-ПРОГРАММИРОВАНИЕ</h1>
-					<h4>Тут можно увидеть всё для веб-программирование. Тут будут: лабораторные, материалы.</h4>
-				</div>
-			</div>
-		</div>
-	</header>
+        <div class="cont2">
+            <div class="wrapper">
+                <span>Hi, I'm <span class="multiText"></span></span>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["coder", "student", "designer"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                startDelay : 1000,
+                backDelay : 1500
+            })
+        </script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.cont2{
+    min-height: 100vh;
+}
+
+.wrapper{
+    color: #f1f0f0;
+    position: absolute;
+    width: 100%;
+    left: 15%;
+}
+
+span{
+    color: #f1f0f0;
+    font-size: 7.5vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.multiText{
+    font-weight: 800;
+    color: #ffd635;
+    text-transform: capitalize;
+}
