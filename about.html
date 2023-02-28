@@ -10,6 +10,8 @@
 
 
 	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,6 +19,8 @@
 
 
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styleAbout.css">
+	<link rel="stylesheet" href="js/script.js">
 </head>
 <body>
 	<header class="header">
@@ -33,6 +37,40 @@
 				</div>
 			</div>
 		</nav>
+		<section class="home">
+			<div class="home-content">
+				<h3>Hello, It's Me</h3>
+				<h1>Ruslan Baranau</h1>
+				<h3>And I'm a <span class="multiText"></span></h3>
+				<p>Lorem ipsum dolor sit amet consectetur
+				adipisicing elit. Laborum eius ratione atque asperiores quis amet 
+				possimus obcaecati est, ducimus laboriosam quos quibusdam! 
+				Repudiandae quas temporibus necessitatibus vero, 
+				qui delectus error?</p>
+				<div class="social-media">
+					<a href="#"><i class="bx bxl-linkedin" ></i></a>
+					<a href="#"><i class="bx bxl-github" ></i></a>
+					<a href="#"><i class="bx bxl-twitter" ></i></a>
+					<a href="#"><i class="bx bxl-instagram" ></i></a>
+				</div>
+				<a href="#" class="btn">Download CV</a>
+			</div>
+			<div class="home-img">
+				<img src="" alt="asd">
+			</div>
+		</section>
 	</header>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		var typingEffect = new Typed(".multiText",{
+			strings : ["Software Developer", "Student", "Designer"],
+			loop : true,
+			typeSpeed : 100,
+			backSpeed : 80,
+			startDelay : 1000,
+			backDelay : 1500
+		})
+	</script>
 </body>
 </html>
