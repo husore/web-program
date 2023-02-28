@@ -52,6 +52,11 @@ p{
 
 .home-img img{
     max-width: 450px;
+    border-radius: 20px;
+    
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay:1s;
 }
 
 .social-media a {

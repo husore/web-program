@@ -1,5 +1,10 @@
 .container2{
+    display: inline-flex;
     width: 300px;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: calc(.1s * var(--i));
 }
 
 .cont{
@@ -62,4 +67,15 @@
 .button2:hover{
     text-decoration: none;
     color:#ffd635;
+}
+
+@keyframes slideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
