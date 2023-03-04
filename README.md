@@ -1,7 +1,7 @@
 # WEB COURSE
 
 Изучение ВЭБ-Программирование на 4 семестре.
-Сайт: https://jyz9k.github.io/web-program/
+Сайт: https://husore.github.io/web-program/
 
 ## Содержание
 - [Технологии](#технологии)
